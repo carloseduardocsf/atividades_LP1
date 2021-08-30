@@ -68,30 +68,3 @@ int main(){
     return 0;
 
 }
-
-
-   /*while(1){
-        scanf("%d", &voto);
-        if(voto <= 0){
-            break;
-        }
-        for (i = 0; i < candidados; i++){
-            if(voto == vet[i].numero){
-                x++;
-            }else if(voto != vet[i].numero){
-                nulo++;
-            }
-        }
-       cont++; 
-    }
-
-    for(i = 0; i < candidados; i++){
-        percentual = x / cont * 1.0;
-    }
-
-    for(i = 0; i < candidados; i++){
-        printf("%.1f - %d - %s\n", percentual, vet[i].numero, vet[i].nome);
-    }
-    
-    percentual_nulo = nulo / cont * 1.0;
-    printf("%.1f - Nulos\n", percentual_nulo);*/
